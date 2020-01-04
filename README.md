@@ -40,15 +40,10 @@ A Node.js API built with Express and all the latest tools and best practices in 
 
 ## Prerequisites
 
-To run this server you will need three containers running on your machine.
-
-To do so, you will need to run the following commands:
-
-- `docker run --name redisbarber -p 6379:6379 -d -t redis:alpine`;
-- `docker run --name mongobarber -p 27017:27017 -d -t mongo`;
-- `docker run --name some-mysql -e MYSQL_ROOT_PASSWORD=my-secret-pw -d mysql:tag
-
-_Remember: If you restart your machine, you will need to start again the server with `docker start <container_id>`._
+To run this server you will need install and run  .
+- `run redis`;
+- `run mongo`;
+- `run mysql`;
 
 ## Getting started
 
